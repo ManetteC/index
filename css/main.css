@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#container
+{
+	width: 100%;
+	height: 1500px;
+	background-color: aliceblue
+}
+.header
+{
+	width: 100%;
+	height: 700px;
+	background:url("../image/genshin-impact-zhongli-new-cropped-hed-1247165-1280x0.jpeg");
+	background-size: cover;
+	
+	
+}
+.banner
+{
+	width: 100%;
+	height: 80px;
+	padding:0 100px;
+	box-sizing: border-box;
+	background-color: goldenrod;
+}
+
+.logo
+{
+	width: 20%;
+	height: 100px;
+	float: left;
+	padding: 5px;
+}
+
+.menu
+{
+	width: 80%;
+	height: 100px;
+	padding: 
+	float: right;
+	
+}
+
+
+.menu ul
+{
+	list-style: none;
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 30px  30px;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: beige;
+	
+}
+
+
+.menu ul li:hover
+{
+	background-color:burlywood;
+}
+
+.slider
+{
+	width: 100%;
+	height: 900px;
+	color:darkred;
+	box-sizing: border-box;
+	padding: 600px 100px 100px 100px;
+	font-family: fontdep;
+	font-size: 30px;
+}
+
+
+button
+{
+	padding: 10px 40px;
+	background-color: rosybrown;
+	color: antiquewhite;
+	border-radius: 10px;
+	font-size: 15px;
+	
+	animation: headerAnimation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	
+}
+
+@font-face
+{   font-family: fontdep;
+	src: url("../Quicksand-VariableFont_wght.ttf");
+	
+}
+.data
+{
+	width: 100%;
+	height: 300px;
+
+}
+.data-nd1
+{
+	width: 30%;
+	height: 300px;
+	background:url("../image/5ded6c95d3ec97373f1b1ed191e91648.png");
+	float: left;
+	margin: 0 1.5% 0 1.5%;
+}
+.data-nd2
+{
+	width: 60%;
+	height: 300px;
+	background:url("../image/b5ca7e22c821d0da9e90d71697cf814c_6991997183766896590.png");
+	float: left;
+	margin: 0 1.5% 0 1.5%;
+}
+
+.noidung1
+{
+	width: 30%;
+	height: 100px;
+	float: left;
+	margin: 10% 5% 5% 10%;
+	color: aliceblue
+}
+.noidung2
+{
+	width: 60%;
+	height: 100px;
+	float: left;
+	margin: 10% 5% 5% 10%;
+	color: aliceblue
+}
